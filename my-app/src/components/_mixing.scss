@@ -1,0 +1,27 @@
+@mixin k-flex-norm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin k-flex-sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin ko-container {
+  padding: 5px 6rem;
+}
+
+@mixin k-container {
+  padding: 5px 5rem;
+}
+
+@mixin k-container-sm {
+  padding: 5px 1rem;
+}
+
+@mixin k-container-md {
+  padding: 5px 2rem;
+}

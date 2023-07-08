@@ -1,0 +1,25 @@
+@import "./components/reset";
+@import "./components/mixing";
+
+body {
+  background: #171717;
+  nav {
+    padding: 1rem 3rem;
+    @include k-flex-sb;
+    gap: 6rem;
+    position: relative;
+    color: #fff;
+
+    div {
+      float: left;
+    }
+
+    ul {
+      @include k-flex-norm;
+      position: absolute;
+      gap: 3rem;
+      left: 50vw;
+      right: 50vw;
+    }
+  }
+}
